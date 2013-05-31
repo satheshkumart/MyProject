@@ -1,0 +1,74 @@
+<resources>
+
+    <string name="app_name">Myproject</string>
+    <string name="Welcome">Welcome</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_signup">SecondActivity</string>
+<string name="login">Existing User Login</string>
+<string name="EnterLoginEmail">EnterLoginEmail</string>
+<string  name="Password">Password</string>
+<string name="Getin">Signin</string>
+<string name="Rememberpassword">Stayon</string>
+<string name="Forgetpassword">Cannot Access Myaccount</string>
+<string name="NewUser">NewUser</string>
+<string name="Signup">New User Signup</string>
+<string name="YourName">YourName</string>
+<string name="LoginEmail">LoginEmail</string>
+<string name="LoginPassword">LoginPassword</string>
+<string name="answer">Answer Page</string>
+<string name="question">Question Page</string>
+<string name="suggestion">Suggestion Page</string>
+<string name="qabank">Question/AnswerBank Page</string>
+<string name="favorite">Add Favorite Name List Page</string>
+<string-array name="knowledge">
+<item>--Select--</item>
+<item>InformationTechnology</item>
+<item>Medical</item>
+<item>Science</item>
+<item>School</item>
+</string-array>
+<string name="KnowledgeArea">KnowledgeArea</string>
+<string name="SecurityQuestion">SecurityQuestion</string>
+
+<string-array name="security">
+<item>Select any Question</item>
+<item>What is your name</item>
+<item>Yourfather name</item>
+</string-array>
+
+
+
+<string name="SignUp">SignUp</string>
+<string name="YourQuestion">Your Question Related To:</string>
+<string name="Enterquestion">Enter your Question?</string>
+<string name="PostQuestion">PostQuestion</string>
+<string name="ViewQuestion">ViewExistingQuesion</string>
+<string name="Yoursuggestion">Your suggestion Related To:</string>
+<string name="ViewSuggestion">ViewSuggestions</string>
+<string name="post">Post</string>
+
+<string-array name="suggested">
+<item>--Select--</item>
+<item>Education</item>
+<item>Social</item>
+<item>Examination</item>
+<item>General</item>
+</string-array>
+<string name="givesuggestion">Enter Your Valuable Information</string>
+<string name="SecurityAnswer">Answer</string>
+<string  name="Submit">Submit</string>
+<string name="quesionpost">Ask Question:</string>
+<string name="answerlist">View Answer:</string>
+<string name="Question">Question</string>
+<string name="Answer">Answers</string>
+<string name="messageusername">satheshkumar</string>
+<string name="message">SendMessage</string>
+<string name="inbox">Inbox Message</string>
+<string name="to">To</string>
+<string name="Message">Message</string>
+<string name="emailname">EmailName</string>
+<string name="MessageContent"> Type your Message</string>
+<string name="sendmessage">Send</string>
+<string name="inboxview">InboxMessage</string>
+</resources>

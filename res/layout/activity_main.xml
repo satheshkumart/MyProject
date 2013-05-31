@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/Welcome"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/loginlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="21dp"
+        android:text="@string/login" />
+
+    <EditText
+        android:id="@+id/loginid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/loginlabel"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/custom"
+        android:ems="10"
+        android:hint="@string/EnterLoginEmail"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginid"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/custom"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <CheckBox
+        android:id="@+id/rememberpwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:text="@string/Rememberpassword" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rememberpwd"
+        android:layout_marginTop="17dp"
+        android:background="#0000FF"
+        android:paddingLeft="10dp"
+        android:text="@string/Getin"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Newuser"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView1"
+        android:background="#0000FF"
+        android:gravity="center"
+              android:text="@string/NewUser"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/forgetpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="15dp"
+        android:text="@string/Forgetpassword" />
+
+</RelativeLayout>

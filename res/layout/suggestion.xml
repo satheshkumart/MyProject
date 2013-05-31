@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/loginlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/suggestion" />
+
+    <TextView
+        android:id="@+id/suggestiontext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/loginlabel"
+        android:layout_marginTop="34dp"
+        android:text="@string/Yoursuggestion" />
+
+    <Spinner
+        android:id="@+id/suggese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/suggestiontext"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/custom"
+        android:drawSelectorOnTop="true" />
+
+    <Button
+        android:id="@+id/viewSuggestion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#0000FF"
+        android:paddingLeft="10dp"
+        android:text="@string/ViewSuggestion"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/postSuggestion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewSuggestion"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="54dp"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="@string/post"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/suggestionlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/suggese"
+        android:layout_marginTop="42dp"
+        android:text="@string/givesuggestion" />
+
+    <EditText
+        android:id="@+id/suggestontype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/suggestionlabel"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/custom"
+        android:ems="10"
+       
+        android:singleLine="false" />
+
+</RelativeLayout>

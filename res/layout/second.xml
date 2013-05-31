@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/loginlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="21dp"
+        />
+    
+    
+    
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="21dp"
+        />
+    
+    
+    
+    
+<ListView
+android:id="@+id/listview"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+    
+    
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="@string/SignUp"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

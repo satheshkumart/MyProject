@@ -1,0 +1,42 @@
+ 
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ 
+    <TextView
+        android:id="@+id/messageusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1F7C07"
+        android:text="@string/messageusername"
+                
+        />
+    
+    
+    <Button
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:background="#0000FF"
+        android:gravity="center"
+         android:layout_marginTop="5dp"
+        android:text="@string/message"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:id="@+id/inbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#1F7C07"
+        android:text="@string/inbox" />
+
+    
+    <ListView
+android:id="@+id/listview"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+ 
+</LinearLayout>

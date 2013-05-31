@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/loginlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="21dp"
+        />
+
+    
+    
+    <Button
+        android:id="@+id/postanswer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="@string/Submit"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/answerfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/loginlabel"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/custom"
+        android:ems="10"
+        android:focusable="true"
+        android:singleLine="false" />
+
+</RelativeLayout>

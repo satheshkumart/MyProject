@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/loginlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+         
+        />
+
+    <Button
+        android:id="@+id/Post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="@string/PostQuestion"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/viewQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#00FF00"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="@string/ViewQuestion"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginlabel"
+        android:layout_marginTop="77dp"
+        android:background="@drawable/custom"
+        android:drawSelectorOnTop="true" />
+
+    <EditText
+        android:id="@+id/questionfield"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/custom"
+        android:ems="10"
+        android:focusable="true"
+       
+        android:singleLine="false" />
+
+    <TextView
+        android:id="@+id/questionlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginTop="19dp"
+        android:text="@string/Enterquestion" />
+
+    <TextView
+        android:id="@+id/relatedquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/loginlabel"
+        android:layout_marginTop="41dp"
+        android:text="@string/YourQuestion" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+ 
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ 
+    <TextView
+        android:id="@+id/loginlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1F7C07"
+        android:text="@string/quesionpost"
+                
+        />
+    
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1F7C07"
+        android:text="@string/to"
+                
+        />
+     <EditText
+         android:id="@+id/questionfield"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/custom"
+         android:ems="10"
+           android:hint="@string/emailname"
+         android:focusable="true"
+         android:singleLine="false" />
+     <TextView
+        android:id="@+id/Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1F7C07"
+        android:text="@string/Message"
+                
+        />
+     <EditText
+         android:id="@+id/messagefield"
+         android:layout_width="match_parent"
+         android:background="@drawable/custom"
+         android:ems="10"
+          android:hint="@string/MessageContent"
+           android:layout_height="150dp"
+         android:focusable="true"
+         android:singleLine="true" />
+    
+    
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:background="#0000FF"
+        android:gravity="center"
+         android:layout_marginTop="5dp"
+        android:text="@string/sendmessage"
+        android:textColor="#FFFFFF" />
+   
+</LinearLayout>
